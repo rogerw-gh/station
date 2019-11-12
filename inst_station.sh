@@ -1,8 +1,6 @@
  #!/bin/sh
  #
  # install station.service and enable
-  #so check pre-reqs first - this is a self defined function to return a status when called, as we are going to check four installations
- # saves time!
  
 echo "Installing station as a service SaaS :-)..."
  
