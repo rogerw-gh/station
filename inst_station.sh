@@ -7,7 +7,7 @@
 echo "Installing station as a service SaaS :-)..."
  
  # first some defensive programming..
- # check utils/bootemail  exists
+ # check utils/logs  exists
  # then check ~/utils exists
  
 if [ -e ~/utils/logs ]
