@@ -1,0 +1,14 @@
+[Unit]
+Description=Running station display on 256x64 LCD
+After=multi-user.target
+
+[Service]
+Type=simple
+RemainAfterExit=no
+Restart=always
+ExecStart=/usr/bin/python3 /home/pi/utils/cronjobs/runtrain.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
